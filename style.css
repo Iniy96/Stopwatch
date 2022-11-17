@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 70vh;
+}
+.container{
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.918);
+    padding: 1em;
+    border-radius: 5pxq;
+}
+.stopwatchContainer{
+    box-shadow: 0 0 5px  rgba(128, 128, 128, 0.616);
+    border-radius: 0.1em;
+    padding: 0.5em;
+    font-size: 5em;
+}
+.buttonContainer{
+    margin-top: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    
+    gap: 2em;
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    border-radius: 5px;
+}
+button{
+    width: 8em;
+    height: 2.5em;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+#startBtn{
+    background-color: green;
+    
+}
+#stopBtn{
+    background-color: red;
+}
+#Reset{
+    background-color: orangered;
+    
+}
+.stopwatchContainer p{
+    font-size: 0.25em;
+}
+#sec, #min, #count{
+    font-size: 4em;
+}
+#sec,#count{
+    padding-left: 0.3em;
+}
